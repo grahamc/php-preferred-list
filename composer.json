@@ -8,4 +8,7 @@
         }
     ],
     "require": {}
+    "autoload": {
+        "psr-0": { "GrahamC\\": "" }
+    }
 }
