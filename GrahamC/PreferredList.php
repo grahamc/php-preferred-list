@@ -2,7 +2,7 @@
 
 namespace GrahamC;
 
-class PreferredList implements Iterator
+class PreferredList implements \Iterator
 {
     protected $list;
     protected $preferred = null;
