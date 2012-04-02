@@ -1,0 +1,11 @@
+{
+    "name": "GrahamC/PreferredList",
+    "description": "Iterate over an array, with the ability to prefer a specific value.",
+    "authors": [
+        {
+            "name": "Graham Christensen",
+            "email": "graham@grahamc.com"
+        }
+    ],
+    "require": {}
+}
