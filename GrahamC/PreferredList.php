@@ -70,8 +70,3 @@ class PreferredList implements Iterator
     }
 }
 
-
-$d = new Devices();
-foreach ($d as $dev) {
-    echo $dev . "\n";
-}
