@@ -1,5 +1,7 @@
 <?php
 
+namespace GrahamC;
+
 class PreferredList implements Iterator
 {
     protected $list;
