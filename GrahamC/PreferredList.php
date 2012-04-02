@@ -33,7 +33,7 @@ class PreferredList implements \Iterator
             return null;
         }
 
-        sort(
+        usort(
             $this->list,
             array($this, 'sort')
         );
