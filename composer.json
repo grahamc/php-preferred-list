@@ -7,7 +7,7 @@
             "email": "graham@grahamc.com"
         }
     ],
-    "require": {}
+    "require": {},
     "autoload": {
         "psr-0": { "GrahamC\\": "" }
     }
