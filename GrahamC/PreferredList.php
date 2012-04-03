@@ -25,6 +25,8 @@ class PreferredList implements \Iterator
 
     public function rewind()
     {
+        $this->position = 0;
+
         if (is_null($this->preferred)) {
             return null;
         }
@@ -37,8 +39,6 @@ class PreferredList implements \Iterator
             $this->list,
             array($this, 'sort')
         );
-
-        $this->position = 0;
 
         return true;
     }
